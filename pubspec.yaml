@@ -1,6 +1,6 @@
 # Auto-generated. Do not edit!
 
-# Updated: Tue Nov 10 14:55:43 2020
+# Updated: Tue Nov 10 14:58:53 2020
 
 
 name: actionlib_msgs
@@ -14,4 +14,4 @@ environment:
 dependencies:
   buffer: ^1.0.6
   dartros: ^0.0.3+4
-  std_msgs: ^0.0.2
+  std_msgs: ^0.0.3

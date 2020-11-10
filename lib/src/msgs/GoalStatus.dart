@@ -1,5 +1,7 @@
 // Auto-generated. Do not edit!
 
+// Updated: Tue Nov 10 14:55:43 2020
+
 // (in-package actionlib_msgs.msg)
 
 
@@ -17,7 +19,7 @@ class GoalStatus extends RosMessage<GoalStatus> {
 
   String text;
 
-  static GoalStatus empty$ = GoalStatus();
+  static GoalStatus $prototype = GoalStatus();
   GoalStatus({ 
     GoalID goal_id,
     int status,
@@ -52,7 +54,7 @@ class GoalStatus extends RosMessage<GoalStatus> {
     //deserializes a message object of type GoalStatus
     final data = GoalStatus();
     // Deserialize message field [goal_id]
-    data.goal_id = GoalID.empty$.deserialize(reader);
+    data.goal_id = GoalID.$prototype.deserialize(reader);
     // Deserialize message field [status]
     data.status = reader.readUint8();
     // Deserialize message field [text]

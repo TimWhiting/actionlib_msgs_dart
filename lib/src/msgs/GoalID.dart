@@ -1,5 +1,7 @@
 // Auto-generated. Do not edit!
 
+// Updated: Tue Nov 10 14:55:43 2020
+
 // (in-package actionlib_msgs.msg)
 
 
@@ -14,7 +16,7 @@ class GoalID extends RosMessage<GoalID> {
 
   String id;
 
-  static GoalID empty$ = GoalID();
+  static GoalID $prototype = GoalID();
   GoalID({ 
     RosTime stamp,
     String id,

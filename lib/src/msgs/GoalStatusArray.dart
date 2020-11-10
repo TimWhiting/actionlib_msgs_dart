@@ -1,5 +1,7 @@
 // Auto-generated. Do not edit!
 
+// Updated: Tue Nov 10 14:55:43 2020
+
 // (in-package actionlib_msgs.msg)
 
 
@@ -16,7 +18,7 @@ class GoalStatusArray extends RosMessage<GoalStatusArray> {
 
   List<GoalStatus> status_list;
 
-  static GoalStatusArray empty$ = GoalStatusArray();
+  static GoalStatusArray $prototype = GoalStatusArray();
   GoalStatusArray({ 
     Header header,
     List<GoalStatus> status_list,
@@ -49,11 +51,13 @@ class GoalStatusArray extends RosMessage<GoalStatusArray> {
     //deserializes a message object of type GoalStatusArray
     final data = GoalStatusArray();
     // Deserialize message field [header]
-    data.header = Header.empty$.deserialize(reader);
+    data.header = Header.$prototype.deserialize(reader);
     // Deserialize message field [status_list]
-    // Deserialize array length for message field [status_list]
-    var len = reader.readInt32();
-    data.status_list = List.generate(len, (_) => GoalStatus.empty$.deserialize(reader));
+    {
+      // Deserialize array length for message field [status_list]
+      final len = reader.readInt32();
+      data.status_list = List.generate(len, (_) => GoalStatus.$prototype.deserialize(reader));
+    }
     return data;
   }
 

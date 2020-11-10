@@ -1,7 +1,11 @@
+# Auto-generated. Do not edit!
+
+# Updated: Tue Nov 10 14:55:43 2020
+
 
 name: actionlib_msgs
 description: A ros actionlib_msgs message package for dartros
-version: 0.0.1
+version: 0.0.3
 repository: https://github.com/TimWhiting/actionlib_msgs_dart
 
 environment:
@@ -9,5 +13,5 @@ environment:
 
 dependencies:
   buffer: ^1.0.6
-  dartros: ^0.0.1
-  std_msgs: ^0.0.1
+  dartros: ^0.0.3+4
+  std_msgs: ^0.0.2

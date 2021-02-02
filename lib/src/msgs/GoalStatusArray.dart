@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Tue Nov 10 14:58:53 2020
+// Updated: Mon Feb  1 12:03:00 2021
 
 // (in-package actionlib_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'package:std_msgs/msgs.dart';
 import 'GoalStatus.dart';
 
@@ -20,15 +21,16 @@ class GoalStatusArray extends RosMessage<GoalStatusArray> {
 
   static GoalStatusArray $prototype = GoalStatusArray();
   GoalStatusArray({ 
-    Header header,
-    List<GoalStatus> status_list,
+    Header? header,
+    List<GoalStatus>? status_list,
   }):
   this.header = header ?? Header(),
   this.status_list = status_list ?? [];
 
+  @override
   GoalStatusArray call({ 
-    Header header,
-    List<GoalStatus> status_list,
+    Header? header,
+    List<GoalStatus>? status_list,
   }) => GoalStatusArray(
   header: header,
   status_list: status_list,

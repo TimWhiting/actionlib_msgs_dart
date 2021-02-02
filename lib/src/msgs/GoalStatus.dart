@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Tue Nov 10 14:58:53 2020
+// Updated: Mon Feb  1 12:03:00 2021
 
 // (in-package actionlib_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'GoalID.dart';
 
 //-----------------------------------------------------------
@@ -21,18 +22,19 @@ class GoalStatus extends RosMessage<GoalStatus> {
 
   static GoalStatus $prototype = GoalStatus();
   GoalStatus({ 
-    GoalID goal_id,
-    int status,
-    String text,
+    GoalID? goal_id,
+    int? status,
+    String? text,
   }):
   this.goal_id = goal_id ?? GoalID(),
   this.status = status ?? 0,
   this.text = text ?? '';
 
+  @override
   GoalStatus call({ 
-    GoalID goal_id,
-    int status,
-    String text,
+    GoalID? goal_id,
+    int? status,
+    String? text,
   }) => GoalStatus(
   goal_id: goal_id,
   status: status,

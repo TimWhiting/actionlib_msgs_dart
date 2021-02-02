@@ -1,6 +1,6 @@
 // Auto-generated. Do not edit!
 
-// Updated: Tue Nov 10 14:58:53 2020
+// Updated: Mon Feb  1 12:03:01 2021
 
 
 export 'src/msgs/GoalStatusArray.dart';

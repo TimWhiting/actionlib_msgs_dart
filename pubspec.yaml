@@ -5,7 +5,7 @@
 
 name: actionlib_msgs
 description: A ros actionlib_msgs message package for dartros
-version: 0.0.3
+version: 0.0.3+2
 repository: https://github.com/TimWhiting/actionlib_msgs_dart
 
 environment:
